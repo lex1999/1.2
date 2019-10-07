@@ -1,0 +1,34 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class oneTwo
+    {public static void main(String[] args)
+      {
+          Scanner input = new Scanner (System.in);
+          System.out.println("input a number");
+          
+              double numberone = input.nextDouble();
+              
+          System.out.println("input another number");
+          
+              double numbertwo = input.nextDouble();
+              
+           if (numberone == numbertwo)
+           {
+               System.out.println (numberone+ " is equal to " +numbertwo);
+            }  
+           else {
+           if(numberone > numbertwo)
+           {
+               System.out.println (numberone+ " is greater than " +numbertwo);
+               
+            }
+           else
+           {
+               System.out.println (numbertwo+ " is greater than " +numberone);  
+            }
+            }
+           
+          
+        }//end of main method
+}//end of class
